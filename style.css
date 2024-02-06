@@ -27,3 +27,37 @@ body{
     position: relative;
     transition: width 1.5s;
 }
+
+.text{
+    margin: 10px 50px;
+    width: 100;
+    color: #fff;
+    border: none;
+    background: transparent;
+    outline: none;
+    transition-delay: 0.5s;
+
+}
+
+.magnifier{
+    position: absolute;
+    left: 15px;
+    width: 25px;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    color: #ffa31f;
+}
+
+.active.container{
+    width: 50px;
+    display: flex;
+}
+
+.active .text{
+    width: 0;
+}
+
+.hidden{
+    visibility: hidden;
+}
